@@ -18,9 +18,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="  flex justify-between items-center h-20 bg-lime-100">
+    <div className="  flex justify-between items-center h-20 bg-[#B4AB9C]">
       {/* I added this div class with container so I could have padding on side and menu still works regularly */}
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto p-8 flex items-center justify-between">
         <div>
           <h3 className="text-3xl">Furnico</h3>
         </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
           onClick={handleNav}
           className={
             nav
-              ? "absolute left-0 top-0 w-full h-full bg-lime-950 py-7 px-4 flex flex-col text-white gap-8"
+              ? "absolute left-0 top-0 w-full h-full bg-[#2F2C26] py-7 px-4 flex flex-col text-white gap-8"
               : "absolute left-[-100%]"
           }
         >
