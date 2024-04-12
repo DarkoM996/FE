@@ -25,16 +25,16 @@ const Navbar = () => {
           <h3 className="text-3xl">Furnico</h3>
         </div>
         <ul className="hidden md:flex">
-          <li>Home</li>
-          <li>About</li>
-          <li>Category</li>
-          <li>Newsstand</li>
-          <li>Contact</li>
+          <li className="text-xl">Home</li>
+          <li className="text-xl">About</li>
+          <li className="text-xl">Category</li>
+          <li className="text-xl">Newsstand</li>
+          <li className="text-xl">Contact</li>
         </ul>
         <div className="hidden md:flex">
-          <AiOutlineSearch className="mr-2" />
-          <MdOutlineShoppingCart className="mr-2" />
-          <MdOutlinePersonOutline />
+          <AiOutlineSearch className="mr-2 text-2xl" />
+          <MdOutlineShoppingCart className="mr-2 text-2xl" />
+          <MdOutlinePersonOutline className="mr-2 text-2xl" />
         </div>
 
         {/* Hamburger Menu */}
