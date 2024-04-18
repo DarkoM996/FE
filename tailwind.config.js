@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         serif: ["Cormorant Garamond", "serif"],
       },
+      screens: {
+        "3xl": "1920px",
+      },
     },
   },
   plugins: [],
