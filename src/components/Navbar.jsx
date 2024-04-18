@@ -50,7 +50,7 @@ const Navbar = () => {
           onClick={handleNav}
           className={
             nav
-              ? "absolute left-0 top-0 w-full h-full bg-[#2F2C26] py-7 px-4 flex flex-col text-white gap-8"
+              ? "absolute left-0 top-0 w-full h-full bg-[#2F2C26] py-7 px-4 flex flex-col text-white gap-8 md:hidden"
               : "absolute left-[-100%]"
           }
         >
