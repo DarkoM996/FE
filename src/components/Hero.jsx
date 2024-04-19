@@ -3,9 +3,9 @@ import hero from "../images/hero.jpg";
 
 const Hero = () => {
   return (
-    <div className="h-[96vh] max-w-screen-3xl mx-auto space-y-4 lg:space-y-8 bg-stone-50">
+    <div className="h-[calc(100vh-2rem)] max-w-screen-3xl mx-auto space-y-4  bg-stone-50">
       {/* Image Container */}
-      <div className="h-2/3 min-w-min px-6 py-2 lg:px-8 lg:py-4 relative">
+      <div className=" h-[85%] min-w-min px-6 py-2 lg:px-8 lg:py-4 relative">
         <img
           src={hero}
           alt="hero image"
