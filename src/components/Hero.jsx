@@ -3,9 +3,10 @@ import hero from "../images/hero.jpg";
 
 const Hero = () => {
   return (
-    <div className="h-[calc(100vh-2rem)] max-w-screen-3xl mx-auto space-y-4  bg-stone-50">
+    // this h-class can be changed later on for resposiveness
+    <div className="h-screen max-w-screen-3xl mx-auto space-y-4  bg-stone-50">
       {/* Image Container */}
-      <div className=" h-[85%] min-w-min px-6 py-2 lg:px-8 lg:py-4 relative">
+      <div className="h-[65%] min-w-min px-6 py-2 lg:px-8 lg:py-4 relative">
         <img
           src={hero}
           alt="hero image"
