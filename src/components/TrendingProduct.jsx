@@ -7,11 +7,11 @@ const TrendingProduct = ({ img, title }) => {
       <img
         src={img}
         alt="/"
-        className="h-[420px] w-full object-cover bg-center rounded-2xl"
+        className="h-[420px] w-full object-cover bg-center rounded-2xl hover:scale-100"
       />
       <div className="relative py-4">
         <div className="flex justify-between items-center pb-2 ">
-          <h4 className="text-3xl c">{title}</h4>
+          <h4 className="text-3xl">{title}</h4>
           <MdFavoriteBorder className="text-2xl" />
         </div>
         <p className="text-xl">Subtitle</p>

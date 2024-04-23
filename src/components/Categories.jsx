@@ -12,8 +12,8 @@ const Categories = () => {
   return (
     <>
       <div className="max-w-screen-3xl mx-auto h-full p-8 py-16 lg:h-full sm:px-8">
-        <h2 className="text-4xl p-6">Select A Category</h2>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 h-full gap-4 md:gap-8 lg:gap-16">
+        <h2 className="text-4xl py-12">Select A Category</h2>
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 h-full gap-4 md:gap-8">
           <CategoryItem img={categorycard4} title="Living Room" />
           <CategoryItem img={categorycard2} title="Dining Room" />
           <CategoryItem img={categorycard5} title="Bedroom" />

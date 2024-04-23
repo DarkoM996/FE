@@ -28,7 +28,6 @@ const Navbar = () => {
           <li className="text-xl">Home</li>
           <li className="text-xl">About</li>
           <li className="text-xl">Category</li>
-          <li className="text-xl">Newsstand</li>
           <li className="text-xl">Contact</li>
         </ul>
         <div className="hidden md:flex">
@@ -58,7 +57,6 @@ const Navbar = () => {
             <li className="text-5xl ">Home</li>
             <li className="text-5xl ">About</li>
             <li className="text-5xl ">Category</li>
-            <li className="text-5xl ">Newsstand</li>
             <li className="text-5xl ">Contact</li>
           </ul>
           <div className="flex justify-between my-8 px-8">
