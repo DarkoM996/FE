@@ -5,7 +5,7 @@
 @layer base {
   body {
     @apply font-serif;
-    @apply bg-stone-50;
+    @apply bg-[#FCF3E3];
   }
 
   li {
