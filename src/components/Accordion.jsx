@@ -11,7 +11,7 @@ const Accordion = ({ title, answer }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between items-center w-full"
       >
-        <span className="text-3xl p-2 w-full">{title}</span>
+        <span className="text-3xl p-2">{title}</span>
         {accordionOpen ? (
           <span className="transition-all duration-300 ease-in-out flex justify-between items-center">
             <AiOutlineDown />
