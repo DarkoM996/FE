@@ -5,7 +5,7 @@ const FrequentlyAskedQuestions = () => {
   return (
     <div className="max-w-screen-3xl mx-auto h-full px-6 py-4 md:py-8 lg:py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12">
-        <div className="w-full h-fit p-8">
+        <div className="w-full h-fit py-8">
           <img
             src={categorycard}
             alt="/"
