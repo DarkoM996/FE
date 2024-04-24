@@ -7,7 +7,7 @@ import trendingproduct4 from "../images/trendingproduct4.jpg";
 
 const TrendingProducts = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto h-full px-6 py-4">
+    <div className="max-w-screen-3xl mx-auto h-full px-6 py-4 md:py-8 lg:py-16">
       <h2 className="text-4xl pb-6 md:pb-12">Trending Product</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
         <TrendingProduct img={trendingproduct} title="Modern Chair" />

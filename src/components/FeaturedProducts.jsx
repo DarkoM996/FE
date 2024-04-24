@@ -6,7 +6,7 @@ import categorycard4 from "../images/categorycard4.jpg";
 
 const FeaturedProducts = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto h-auto px-6 py-4">
+    <div className="max-w-screen-3xl mx-auto h-auto px-6 py-4 md:py-8 lg:py-16">
       <h2 className="text-4xl py-12">Featured Products</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <FeaturedProduct
