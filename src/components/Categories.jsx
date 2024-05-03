@@ -15,11 +15,11 @@ const Categories = () => {
         <h2 className="text-4xl py-12">Select A Category</h2>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 h-full gap-4 md:gap-8">
           <CategoryItem img={categorycard4} title="Living Room" />
-          <CategoryItem img={categorycard2} title="Dining Room" />
-          <CategoryItem img={categorycard5} title="Bedroom" />
+          <CategoryItem img={categorycard2} title="Bathroom" />
+          <CategoryItem img={categorycard5} title="Guest Room" />
           <CategoryItem img={categorycard} title="Office" />
-          <CategoryItem img={categorycard3} title="Living Room" />
-          <CategoryItem img={categorycard6} title="Living Room" />
+          <CategoryItem img={categorycard3} title="Dining Room" />
+          <CategoryItem img={categorycard6} title="Bedroom" />
         </div>
       </div>
     </>

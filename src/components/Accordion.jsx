@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { MdOutlineAdd } from "react-icons/md";
+import { MdRemove } from "react-icons/md";
 import { AiOutlineRight } from "react-icons/ai";
 import { AiOutlineDown } from "react-icons/ai";
 
@@ -13,12 +15,12 @@ const Accordion = ({ title, answer }) => {
       >
         <span className="text-3xl p-2">{title}</span>
         {accordionOpen ? (
-          <span className="transition-all duration-300 ease-in-out flex justify-between items-center">
-            <AiOutlineDown />
+          <span className="transition-all duration-300 ease-in-out flex justify-between items-center rotate-180">
+            <MdRemove className="text-2xl" />
           </span>
         ) : (
           <span className="transition-all duration-300 ease-in-out">
-            <AiOutlineRight />
+            <MdOutlineAdd className="text-2xl" />
           </span>
         )}
       </button>
