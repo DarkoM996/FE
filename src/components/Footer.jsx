@@ -53,9 +53,9 @@ const Footer = () => {
           </div>
           {/* <!-- Products section --> */}
           <div className="">
-            <h6 className="mb-4 flex justify-center font-medium uppercase md:justify-start">
+            <h4 className="mb-4 text-3xl flex justify-center font-medium md:justify-start">
               Products
-            </h6>
+            </h4>
             <p className="mb-4">
               <a className="text-[#bebab2]">FurniPro</a>
             </p>
@@ -71,9 +71,9 @@ const Footer = () => {
           </div>
           {/* <!-- Useful Links --> */}
           <div className="">
-            <h6 className="mb-4 flex justify-center font-medium uppercase md:justify-start">
+            <h4 className="mb-4 text-3xl flex justify-center font-medium md:justify-start">
               Useful Links
-            </h6>
+            </h4>
             <p className="mb-4">
               <a className="text-[#bebab2]">Category</a>
             </p>
@@ -89,9 +89,9 @@ const Footer = () => {
           </div>
           {/* <!-- Contact --> */}
           <div className="">
-            <h6 className="mb-4 flex justify-center font-medium uppercase md:justify-start">
+            <h4 className="mb-4 text-3xl flex justify-center font-medium  md:justify-start">
               Products
-            </h6>
+            </h4>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdHouse className="text-2xl mr-1" />
               <a className="text-[#bebab2]">New York, NY 10012, US</a>
