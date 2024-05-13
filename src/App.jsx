@@ -1,25 +1,22 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Categories from "./components/Categories";
-import TrendingProducts from "./components/TrendingProducts";
-import BelovedProductsByOurCustomers from "./components/BelovedProductsByOurCustomers";
-import FeaturedProducts from "./components/FeaturedProducts";
-import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions";
-import Footer from "./components/Footer";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+import MainLayout from "./layout/MainLayout";
+import HomePage from "./pages/HomePage";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<HomePage />} />)
+    </Route>
+  )
+);
 
 const App = () => {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Categories />
-      <TrendingProducts />
-      <BelovedProductsByOurCustomers />
-      <FeaturedProducts />
-      <FrequentlyAskedQuestions />
-      <Footer />
-    </>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
