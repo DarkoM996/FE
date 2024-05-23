@@ -4,6 +4,7 @@ import FeaturedProducts from "../components/FeaturedProducts";
 import BelovedProductsByOurCustomers from "../components/BelovedProductsByOurCustomers";
 import TrendingProducts from "../components/TrendingProducts";
 import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions";
+import ProductListings from "../components/ProductListings";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <BelovedProductsByOurCustomers />
       <TrendingProducts />
       <FrequentlyAskedQuestions />
+      <ProductListings />
     </>
   );
 };
