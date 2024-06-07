@@ -9,7 +9,7 @@ const ProductListings = () => {
     <section className=" px-4 py-10">
       <div className="max-w-screen-3xl mx-auto h-auto px-6 py-4 md:py-8 lg:py-16">
         <h2 className="text-4xl py-12">Featured Products</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
             <div className=" rounded-xl relative">
               <div className="">
