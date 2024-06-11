@@ -25,7 +25,7 @@ const ProductListings = () => {
                   <MdFavoriteBorder className="text-2xl" />
                 </div>
 
-                <div className="mb-5">{product.description}</div>
+                <div className="mb-5">{product.subtitle}</div>
                 <h3 className="text-black font-bold mb-2">{product.price}</h3>
               </div>
             </div>
