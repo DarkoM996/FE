@@ -4,7 +4,7 @@ import hero from "../images/hero.jpg";
 const Hero = () => {
   return (
     // this h-class can be changed later on for resposiveness
-    <div className="h-2/3 max-w-screen-3xl mx-auto space-y-4">
+    <div className="h-2/3 max-w-screen-3xl mx-auto space-y-4 ">
       {/* Image Container */}
       <div className="h-[calc(100vh-18rem)] min-w-min px-6 py-2 lg:px-8 lg:py-4 relative">
         <img
@@ -26,7 +26,7 @@ const Hero = () => {
             Make that the problem of the past by looking through our curated
             collection.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-3/4">
+          <div className="flex flex-col sm:flex-row gap-4 w-full">
             <button className="bg-black text-white px-6 py-4  rounded-full text-base w-full hover:bg-[#0e0f0ecc]">
               Get Started
             </button>
