@@ -21,11 +21,10 @@ const ProductListings = () => {
                   />
                 </div>
                 <div className="flex flex-row justify-between items-baseline">
-                  <h3 className="text-2xl font-bold pb-4">{product.name}</h3>
+                  <h3 className="text-3xl font-bold pb-2">{product.name}</h3>
                   <MdFavoriteBorder className="text-2xl" />
                 </div>
-
-                <div className="mb-5">{product.subtitle}</div>
+                <div className="mb-4 text-xl">{product.subtitle}</div>
                 <h3 className="text-black font-bold mb-2">{product.price}</h3>
               </div>
             </div>
