@@ -20,17 +20,17 @@ const Hero = () => {
             Feeling The Comfort Of Resting <br /> Comfortably Using FurniPro
           </h1>
         </div>
-        <div className="flex flex-col w-full md:w-1/2 lg:w-1/3 gap-4">
+        <div className="flex flex-col w-full md:w-1/2 lg:w-1/4 gap-4">
           <p className="text-xl">
             Comfort in your own home shouldn’t be something that bothers you.
             Make that the problem of the past by looking through our curated
             collection.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 w-full">
-            <button className="bg-black text-white px-6 py-4 md:px-8 md:py-4 rounded-full text-base w-full hover:bg-[#0e0f0ecc]">
+          <div className="flex flex-col sm:flex-row gap-4 w-full lg:w-3/4">
+            <button className="bg-black text-white px-6 py-4  rounded-full text-base w-full hover:bg-[#0e0f0ecc]">
               Get Started
             </button>
-            <button className="bg-[#dfd6c8] px-6 py-4 md:px-8 md:py-4  rounded-full w-full hover:bg-[#a79e91]">
+            <button className="bg-[#dfd6c8] px-6 py-4  rounded-full w-full hover:bg-[#a79e91]">
               Contact Us
             </button>
           </div>
