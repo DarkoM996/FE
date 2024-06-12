@@ -11,11 +11,10 @@ const HomePage = () => {
     <>
       <Hero />
       <Categories />
-      <FeaturedProducts />
+      <ProductListings />
       <BelovedProductsByOurCustomers />
       <TrendingProducts />
       <FrequentlyAskedQuestions />
-      <ProductListings />
     </>
   );
 };
