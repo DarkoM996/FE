@@ -3,6 +3,8 @@ import aboutimage from "../images/aboutimage.jpg";
 import hero from "../images/hero.jpg";
 import categorycard4 from "../images/categorycard4.jpg";
 
+// This section will probably need a rewrite..
+
 const BelovedProductsByOurCustomers = () => {
   return (
     <div className="max-w-screen-3xl mx-auto h-full px-6 py-4 md:py-8 lg:py-16">

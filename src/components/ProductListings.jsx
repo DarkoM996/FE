@@ -5,7 +5,7 @@ import ProductListing from "./ProductListing";
 import { MdFavoriteBorder } from "react-icons/md";
 
 const ProductListings = () => {
-  // Limiting products to 4
+  // Limiting products to 4. HOWEVER, I may leave all 6. Its gonna be a design decision that I am making soon.
   const recentProducts = products.slice(0, 4);
 
   return (
