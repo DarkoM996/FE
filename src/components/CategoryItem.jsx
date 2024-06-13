@@ -5,6 +5,7 @@ import products from "../products";
 const CategoryItem = ({ img, title }) => {
   return (
     // Trying to determine this.. we'll see what happens
+    // Actually this will need a rewrite
     <Link to={`/category/${products.id}`}>
       <div className="relative flex items-center justify-center h-auto w-full  group bg-black  rounded-xl">
         <img
