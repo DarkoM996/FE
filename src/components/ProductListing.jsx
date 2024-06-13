@@ -16,7 +16,7 @@ const ProductListing = ({ product }) => {
           </a>
         </div>
         <div className="flex flex-row justify-between items-baseline">
-          <h3 className="text-3xl font-bold pb-2">{product.name}</h3>
+          <h3 className="text-3xl pb-2">{product.name}</h3>
           <MdFavoriteBorder className="text-2xl" />
         </div>
         <div className="mb-4 text-xl">{product.subtitle}</div>
