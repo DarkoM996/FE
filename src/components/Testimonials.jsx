@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-hidden">
         {/* Grid Element */}
         <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
-          <h4 className="text-3xl pb-1">Some title</h4>
+          <h4 className="text-3xl pb-1">Amazing Sofa </h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
             <MdOutlineStarPurple500 />
@@ -29,12 +29,12 @@ const Testimonials = () => {
             {/* customer's name */}
             <p className="font-bold">John Wayne</p>
             {/* date when the comment is posted */}
-            <p>24/05/2024</p>
+            <p>24/07/2024</p>
           </div>
         </div>
         {/* Grid Element */}
         <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
-          <h4 className="text-3xl pb-1">Some title</h4>
+          <h4 className="text-3xl pb-1">Phenomenal Service!</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
             <MdOutlineStarPurple500 />
@@ -52,14 +52,14 @@ const Testimonials = () => {
           {/* Date and name of who posted it */}
           <div className="flex flex-row justify-between items-centers pt-4">
             {/* customer's name */}
-            <p className="font-bold">John Wayne</p>
+            <p className="font-bold">Juliana Stone</p>
             {/* date when the comment is posted */}
-            <p>24/05/2024</p>
+            <p>14/08/2024</p>
           </div>
         </div>
         {/* Grid Element */}
         <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
-          <h4 className="text-3xl pb-1">Some title</h4>
+          <h4 className="text-3xl pb-1">The Most Amazing Experience!</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
             <MdOutlineStarPurple500 />
@@ -77,14 +77,14 @@ const Testimonials = () => {
           {/* Date and name of who posted it */}
           <div className="flex flex-row justify-between items-centers pt-4">
             {/* customer's name */}
-            <p className="font-bold">John Wayne</p>
+            <p className="font-bold">Harry Brown</p>
             {/* date when the comment is posted */}
-            <p>24/05/2024</p>
+            <p>24/06/2024</p>
           </div>
         </div>
         {/* Grid Element */}
         <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
-          <h4 className="text-3xl pb-1">Some title</h4>
+          <h4 className="text-3xl pb-1">Best Sofa Ever</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
             <MdOutlineStarPurple500 />
@@ -102,14 +102,14 @@ const Testimonials = () => {
           {/* Date and name of who posted it */}
           <div className="flex flex-row justify-between items-centers pt-4">
             {/* customer's name */}
-            <p className="font-bold">John Wayne</p>
+            <p className="font-bold">Wayne Jefferson</p>
             {/* date when the comment is posted */}
-            <p>24/05/2024</p>
+            <p>24/03/2024</p>
           </div>
         </div>
         {/* Grid Element */}
         <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
-          <h4 className="text-3xl pb-1">The Best Mattress You Should Buy</h4>
+          <h4 className="text-3xl pb-1">The Best Mattress</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
             <MdOutlineStarPurple500 />
