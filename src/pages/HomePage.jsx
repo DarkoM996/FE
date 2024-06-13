@@ -4,6 +4,7 @@ import BelovedProductsByOurCustomers from "../components/BelovedProductsByOurCus
 import TrendingProducts from "../components/TrendingProducts";
 import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions";
 import ProductListings from "../components/ProductListings";
+import Testimonials from "../components/Testimonials";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <ProductListings />
       <BelovedProductsByOurCustomers />
       <TrendingProducts />
+      <Testimonials />
       <FrequentlyAskedQuestions />
     </>
   );
