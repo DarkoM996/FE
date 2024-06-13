@@ -12,7 +12,7 @@ const ProductListings = () => {
     // This works and is based on the original 2024 React Traversy crash course. Now.. recreate the cards you want from the design in JSX and Tailwind.. and then you can just add dynamic data instead of the static HTML/JSX where its needed
     <section className=" px-4 py-10">
       <div className="max-w-screen-3xl mx-auto h-auto px-6 py-4 md:py-8 lg:py-16">
-        <h2 className="text-4xl py-12">Featured Products</h2>
+        <h2 className="text-4xl md:text-5xl py-12">Featured Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {recentProducts.map((product) => (
             // This will be a separate component so we can map through a component instead of just HTML

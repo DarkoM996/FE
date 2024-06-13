@@ -13,7 +13,9 @@ const FrequentlyAskedQuestions = () => {
           />
         </div>
         <div className="flex flex-col w-full h-full justify-center ">
-          <h2 className="text-5xl pb-8">Frequently Asked Questions</h2>
+          <h2 className="text-4xl md:text-5xl pb-8">
+            Frequently Asked Questions
+          </h2>
           <FrequentlyAskedQuestion />
         </div>
       </div>
