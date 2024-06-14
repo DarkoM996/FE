@@ -10,12 +10,19 @@ const BelovedProducts = () => {
       {/* Grid of 3 popular products from the customers */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Image container */}
-        <div>
+        <div className="relative">
           <img
             src={picture1}
             alt="/"
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[600px] object-cover rounded-3xl"
           />
+          {/* Name of a product + Button that links to other parts of the web app */}
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col gap-4 justify-center items-center">
+            <h3 className="text-3xl text-black">Name Of Product</h3>
+            <button className="px-8 py-6 bg-black text-white rounded-full">
+              Click Me
+            </button>
+          </div>
         </div>
         {/* Image container */}
         <div className="relative">
@@ -33,12 +40,19 @@ const BelovedProducts = () => {
           </div>
         </div>
         {/* Image container */}
-        <div>
+        <div className="relative">
           <img
             src={picture3}
             alt="/"
-            className="w-full h-[600px] object-cover"
+            className="w-full h-[600px] object-cover rounded-3xl"
           />
+          {/* Name of product + Button that links to other parts of the web app */}
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
+            <h3 className="text-3xl text-black">Name of Product</h3>
+            <button className="px-8 py-6 bg-black text-white rounded-full">
+              Click Me
+            </button>
+          </div>
         </div>
       </div>
     </div>
