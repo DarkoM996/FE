@@ -5,6 +5,7 @@ import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions";
 import ProductListings from "../components/ProductListings";
 import Testimonials from "../components/Testimonials";
 import BelovedProducts from "../components/BelovedProducts";
+import CategorySection from "../components/CategorySection";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Hero />
       <Categories />
       <ProductListings />
+      {/* <CategorySection /> */}
       <BelovedProducts />
       <TrendingProducts />
       <Testimonials />
