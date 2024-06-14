@@ -8,48 +8,48 @@ const BelovedProducts = () => {
     <div className="max-w-screen-3xl mx-auto relative w-full h-full px-6 py-4">
       <h2 className="text-4xl md:text-5xl py-12">Beloved Products</h2>
       {/* Grid of 3 popular products from the customers */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
         {/* Image container */}
-        <div className="relative">
+        <div className="relative col-span-3 h-[500px]">
           <img
             src={picture1}
             alt="/"
-            className="w-full h-[600px] object-cover rounded-3xl"
+            className="w-full h-full object-cover rounded-3xl"
           />
           {/* Name of a product + Button that links to other parts of the web app */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col gap-4 justify-center items-center">
-            <h3 className="text-3xl text-black">Name Of Product</h3>
-            <button className="px-8 py-6 bg-black text-white rounded-full">
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col gap-4 justify-center items-center bg-black/40 rounded-3xl">
+            <h3 className="text-3xl text-white">Name Of Product</h3>
+            <button className="px-8 py-4 bg-black border border-white text-white rounded-full">
               Click Me
             </button>
           </div>
         </div>
         {/* Image container */}
-        <div className="relative">
+        <div className="relative col-span-3 h-[500px]">
           <img
             src={picture2}
             alt="/"
-            className="w-full h-[600px] object-cover rounded-3xl"
+            className="w-full h-full object-cover rounded-3xl"
           />
           {/* Name of product + Button that links to other parts of the web app */}
           <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4  rounded-3xl">
             <h3 className="text-3xl text-black">Name of Product</h3>
-            <button className="px-8 py-6 bg-black text-white rounded-full ">
+            <button className="px-8 py-4 bg-black text-white rounded-full ">
               Click Me
             </button>
           </div>
         </div>
         {/* Image container */}
-        <div className="relative">
+        <div className="relative col-span-3 lg:col-span-6 h-[500px]">
           <img
             src={picture3}
             alt="/"
-            className="w-full h-[600px] object-cover rounded-3xl"
+            className="w-full h-full object-cover rounded-3xl"
           />
           {/* Name of product + Button that links to other parts of the web app */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
-            <h3 className="text-3xl text-black">Name of Product</h3>
-            <button className="px-8 py-6 bg-black text-white rounded-full">
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 bg-black/30 rounded-3xl">
+            <h3 className="text-3xl text-white">Name of Product</h3>
+            <button className="px-8 py-4 bg-black border border-white text-white rounded-full">
               Click Me
             </button>
           </div>
