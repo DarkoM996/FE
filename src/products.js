@@ -88,6 +88,66 @@ const products = [
     rating: 4.0,
     numReviews: 20,
   },
+
+  {
+    _id: "7",
+    name: "Product #7",
+    subtitle: "Subtitle #7",
+    image: "/src/images/categorycard2.jpg",
+    description:
+      "Fits perfectly in KALLAX shelving unit and other units with shelves which are at least 38 cm deep. A good size for everything from games and media accessories to clothes and hobby things. Easy to pull out as the box has a handle. If you organise your things and give them a specific place in the drawer, they will be easier to find.",
+    brand: "Apple",
+    category: "Electronics",
+    price: "$190.00",
+    countInStock: 20,
+    rating: 4.0,
+    numReviews: 20,
+  },
+
+  {
+    _id: "8",
+    name: "Product #8",
+    subtitle: "Subtitle #8",
+    image: "/src/images/categorycard2.jpg",
+    description:
+      "Fits perfectly in KALLAX shelving unit and other units with shelves which are at least 38 cm deep. A good size for everything from games and media accessories to clothes and hobby things. Easy to pull out as the box has a handle. If you organise your things and give them a specific place in the drawer, they will be easier to find.",
+    brand: "Apple",
+    category: "Electronics",
+    price: "$190.00",
+    countInStock: 20,
+    rating: 4.0,
+    numReviews: 20,
+  },
+
+  {
+    _id: "9",
+    name: "Product #9",
+    subtitle: "Subtitle #9",
+    image: "/src/images/categorycard2.jpg",
+    description:
+      "Fits perfectly in KALLAX shelving unit and other units with shelves which are at least 38 cm deep. A good size for everything from games and media accessories to clothes and hobby things. Easy to pull out as the box has a handle. If you organise your things and give them a specific place in the drawer, they will be easier to find.",
+    brand: "Apple",
+    category: "Electronics",
+    price: "$190.00",
+    countInStock: 20,
+    rating: 4.0,
+    numReviews: 20,
+  },
+
+  {
+    _id: "10",
+    name: "Product #10",
+    subtitle: "Subtitle #10",
+    image: "/src/images/categorycard2.jpg",
+    description:
+      "Fits perfectly in KALLAX shelving unit and other units with shelves which are at least 38 cm deep. A good size for everything from games and media accessories to clothes and hobby things. Easy to pull out as the box has a handle. If you organise your things and give them a specific place in the drawer, they will be easier to find.",
+    brand: "Apple",
+    category: "Electronics",
+    price: "$190.00",
+    countInStock: 20,
+    rating: 4.0,
+    numReviews: 20,
+  },
 ];
 
 export default products;
