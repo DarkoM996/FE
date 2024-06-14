@@ -1,14 +1,15 @@
 import React from "react";
 import { MdFavoriteBorder } from "react-icons/md";
+import products from "../products";
 import { Link } from "react-router-dom";
 
-const ProductListing = ({ product }) => {
+const TrendingProduct = ({ product }) => {
   return (
     <div className=" rounded-xl relative">
       <div className="">
         <div className="mb-4 overflow-hidden inline-block rounded-2xl">
           {/* Should link to individual product..  */}
-          <Link to={`/products/${product._id}`}>
+          <Link to={`/products/${products._id}`}>
             <img
               src={product.image}
               alt="product image"
@@ -27,4 +28,4 @@ const ProductListing = ({ product }) => {
   );
 };
 
-export default ProductListing;
+export default TrendingProduct;
