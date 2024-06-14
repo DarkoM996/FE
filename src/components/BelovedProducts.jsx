@@ -25,9 +25,9 @@ const BelovedProducts = () => {
             className="w-full h-[600px] object-cover rounded-3xl"
           />
           {/* Name of product + Button that links to other parts of the web app */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 bg-black/50 rounded-3xl">
-            <h3 className="text-3xl text-white">Name of Product</h3>
-            <button className="p-4 bg-white text-black rounded-full">
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4  rounded-3xl">
+            <h3 className="text-3xl text-black">Name of Product</h3>
+            <button className="px-8 py-6 bg-black text-white rounded-full ">
               Click Me
             </button>
           </div>
