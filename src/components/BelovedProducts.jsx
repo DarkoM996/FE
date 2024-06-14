@@ -2,6 +2,7 @@ import React from "react";
 import picture1 from "../images/newsstandimage2.jpg";
 import picture2 from "../images/newsstandimage3.jpg";
 import picture3 from "../images/newsstandimage4.jpg";
+import { Link } from "react-router-dom";
 
 const BelovedProducts = () => {
   return (
@@ -19,9 +20,12 @@ const BelovedProducts = () => {
           {/* Name of a product + Button that links to other parts of the web app */}
           <div className="absolute top-0 left-0 w-full h-full flex flex-col gap-4 justify-center items-center bg-black/40 rounded-3xl">
             <h3 className="text-3xl text-white">Name Of Product</h3>
-            <button className="px-8 py-4 bg-black border border-white text-white rounded-full">
+            <Link
+              to="/products/1"
+              className="px-8 py-4 bg-black border border-white text-white rounded-full"
+            >
               Click Me
-            </button>
+            </Link>
           </div>
         </div>
         {/* Image container */}
@@ -32,11 +36,14 @@ const BelovedProducts = () => {
             className="w-full h-full object-cover rounded-3xl"
           />
           {/* Name of product + Button that links to other parts of the web app */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4  rounded-3xl">
-            <h3 className="text-3xl text-black">Name of Product</h3>
-            <button className="px-8 py-4 bg-black text-white rounded-full ">
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 bg-black/40 rounded-3xl">
+            <h3 className="text-3xl text-white">Name of Product</h3>
+            <Link
+              to="/products/2"
+              className="px-8 py-4 bg-black border border-white text-white rounded-full "
+            >
               Click Me
-            </button>
+            </Link>
           </div>
         </div>
         {/* Image container */}
@@ -47,11 +54,14 @@ const BelovedProducts = () => {
             className="w-full h-full object-cover rounded-3xl"
           />
           {/* Name of product + Button that links to other parts of the web app */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 bg-black/30 rounded-3xl">
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 bg-black/40 rounded-3xl">
             <h3 className="text-3xl text-white">Name of Product</h3>
-            <button className="px-8 py-4 bg-black border border-white text-white rounded-full">
+            <Link
+              to="/products/3"
+              className="px-8 py-4 bg-black border border-white text-white rounded-full"
+            >
               Click Me
-            </button>
+            </Link>
           </div>
         </div>
       </div>
