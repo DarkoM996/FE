@@ -26,10 +26,18 @@ const Navbar = () => {
           <h3 className="text-3xl">Furnico</h3>
         </div>
         <ul className="hidden md:flex">
-          <li className="text-xl">Home</li>
-          <li className="text-xl">About</li>
-          <li className="text-xl">Products</li>
-          <li className="text-xl">Contact</li>
+          <Link to="/">
+            <li className="text-xl">Home</li>
+          </Link>
+          <Link to="/about">
+            <li className="text-xl">About</li>
+          </Link>
+          <Link to="/products">
+            <li className="text-xl">Products</li>
+          </Link>
+          <Link to="/contact">
+            <li className="text-xl">Contact</li>
+          </Link>
         </ul>
         <div className="hidden md:flex">
           <AiOutlineSearch className="mr-2 text-2xl" />
@@ -40,9 +48,9 @@ const Navbar = () => {
         {/* Hamburger Menu */}
         <div onClick={handleNav} className="md:hidden text-2xl z-50">
           {nav ? (
-            <AiOutlineClose className="text-white" size={28} />
+            <AiOutlineClose className="text-white" size={24} />
           ) : (
-            <IoMdMenu size={28} />
+            <IoMdMenu size={20} />
           )}
         </div>
         {/* Mobile Menu dropdown */}
@@ -55,10 +63,18 @@ const Navbar = () => {
           }
         >
           <ul className="flex flex-col items-center pt-16 justify-between gap-8">
-            <li className="text-5xl ">Home</li>
-            <li className="text-5xl ">About</li>
-            <li className="text-5xl ">Products</li>
-            <li className="text-5xl ">Contact</li>
+            <Link to="/">
+              <li className="text-5xl ">Home</li>
+            </Link>
+            <Link to="/about">
+              <li className="text-5xl ">About</li>
+            </Link>
+            <Link to="/products">
+              <li className="text-5xl ">Products</li>
+            </Link>
+            <Link to="/contact">
+              <li className="text-5xl ">Contact</li>
+            </Link>
           </ul>
           <div className="flex justify-between my-8 px-8">
             <FaFacebook className="icon text-2xl cursor-pointer" />
