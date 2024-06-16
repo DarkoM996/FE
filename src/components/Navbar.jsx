@@ -10,6 +10,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -37,11 +38,11 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger Menu */}
-        <div onClick={handleNav} className="md:hidden text-2xl z-10">
+        <div onClick={handleNav} className="md:hidden text-2xl z-50">
           {nav ? (
-            <AiOutlineClose className="text-white" size={20} />
+            <AiOutlineClose className="text-white" size={28} />
           ) : (
-            <IoMdMenu size={20} />
+            <IoMdMenu size={28} />
           )}
         </div>
         {/* Mobile Menu dropdown */}
@@ -49,7 +50,7 @@ const Navbar = () => {
           onClick={handleNav}
           className={
             nav
-              ? "absolute left-0 top-0 w-full h-full bg-[#2F2C26] py-7 px-4 flex flex-col text-white gap-8 md:hidden"
+              ? "absolute left-0 top-0 w-full h-full bg-[#2F2C26] py-7 px-4 flex flex-col text-white gap-8 md:hidden z-40"
               : "absolute left-[-100%]"
           }
         >
