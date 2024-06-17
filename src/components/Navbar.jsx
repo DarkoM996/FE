@@ -22,15 +22,15 @@ const Navbar = () => {
 
   const linkClass = ({ isActive }) =>
     isActive
-      ? "bg-black text-white p-2 hover:bg-darkerShade-900 hover:text-black rounded-full"
-      : "text-white p-2 hover:bg-darkerShade-900 hover:text-black rounded-full";
+      ? "bg-black text-white p-2 hover:bg-darkerShade-900 hover:text-darkerShade-700 rounded-full"
+      : "text-black p-2 hover:bg-primary_darkerShade-800 hover:text-white rounded-full";
 
   return (
     <div className="  flex justify-between items-center h-20 bg-primary_lighterShade-300">
       {/* I added this div class with container so I could have padding on side and menu still works regularly */}
       <div className="container mx-auto p-8 flex items-center justify-between">
         <div>
-          <h3 className="text-3xl">Furnico</h3>
+          <h3 className="text-3xl ">Furnico</h3>
         </div>
         <ul className="hidden md:flex">
           {/* Using the function here for active link that I created above  */}
