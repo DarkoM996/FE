@@ -1,4 +1,5 @@
 import backgroundimage from "../images/error404image.jpg";
+import { Link } from "react-router-dom";
 
 const Error404Page = () => {
   return (
@@ -19,9 +20,9 @@ const Error404Page = () => {
               Unfortunately, something went wrong duo to unknown reasons.
             </p>
           </div>
-          <button className="p-4 bg-white text-black text-transform: uppercase rounded-full">
+          <Link className="p-4 bg-white text-black text-transform: uppercase rounded-full">
             Back To Homepage
-          </button>
+          </Link>
         </div>
       </div>
     </div>
