@@ -12,8 +12,8 @@ import { MdFax, MdHouse, MdLocalPhone, MdMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen-3xl mx-auto h-full px-6 py-4 bg-[#1b1a18] text-white">
-      <div className="flex items-center justify-center border-b-2 border-stone-800 p-6 dark:border-stone-400 lg:justify-between">
+    <footer className="max-w-screen-3xl mx-auto h-full px-6 py-4 bg-primary_darkerShade-900 text-white">
+      <div className="flex items-center justify-center border-b-2 border-primary_darkerShade-850 p-6 dark:border-primary_lighterShade-300 lg:justify-between">
         <div className="mr-12 hidden lg:block">
           <span className="text-xl">
             Get Connected with us on social media:
@@ -45,7 +45,7 @@ const Footer = () => {
             <h2 className="text-4xl mb-4 flex items-center justify-center font-semibold  md:justify-start">
               Furnico
             </h2>
-            <p className="text-[#a8a49c]">
+            <p className=" text-primary_lighterShade-500">
               Feel the comfort of resting nicely with our variety of our brands
               such as FurniPro, FurnicoDreams, FurnicoComfort and many others.
               Join us and become a member of growing base of happy customers.
@@ -57,16 +57,24 @@ const Footer = () => {
               Products
             </h4>
             <p className="mb-4">
-              <a className="text-[#bebab2]">FurniPro</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                FurniPro
+              </a>
             </p>
             <p className="mb-4">
-              <a className="text-[#bebab2] ">FurnicoDreams</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200 ">
+                FurnicoDreams
+              </a>
             </p>
             <p className="mb-4">
-              <a className="text-[#bebab2] ">FurniOffice</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200 ">
+                FurniOffice
+              </a>
             </p>
             <p>
-              <a className="text-[#bebab2] ">FurniDining</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                FurniDining
+              </a>
             </p>
           </div>
           {/* <!-- Useful Links --> */}
@@ -75,16 +83,24 @@ const Footer = () => {
               Useful Links
             </h4>
             <p className="mb-4">
-              <a className="text-[#bebab2]">Category</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                Category
+              </a>
             </p>
             <p className="mb-4">
-              <a className="text-[#bebab2]">Orders</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                Orders
+              </a>
             </p>
             <p className="mb-4">
-              <a className="text-[#bebab2]">Settings</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                Settings
+              </a>
             </p>
             <p>
-              <a className="text-[#bebab2]">Help</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                Help
+              </a>
             </p>
           </div>
           {/* <!-- Contact --> */}
@@ -94,19 +110,27 @@ const Footer = () => {
             </h4>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdHouse className="text-2xl mr-1" />
-              <a className="text-[#bebab2]">New York, NY 10012, US</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                New York, NY 10012, US
+              </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdMail className="text-2xl mr-1" />
-              <a className="text-[#bebab2]">info@example.com</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                info@example.com
+              </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdLocalPhone className="text-2xl mr-1" />
-              <a className="text-[#bebab2]">+ 01 234 567 88</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                + 01 234 567 88
+              </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdFax className="text-2xl mr-1" />
-              <a className="text-[#bebab2]">+ 01 234 567 89</a>
+              <a className="text-primary_lighterShade-500 hover:text-primary_lighterShade-200">
+                + 01 234 567 89
+              </a>
             </p>
           </div>
         </div>

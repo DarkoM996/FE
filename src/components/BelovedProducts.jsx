@@ -22,7 +22,7 @@ const BelovedProducts = () => {
             <h3 className="text-3xl text-white">Name Of Product</h3>
             <Link
               to="/products/1"
-              className="px-8 py-4 bg-black text-white hover:bg-neutral-900 rounded-full"
+              className="px-8 py-4 bg-black text-white hover:bg-primary_darkerShade-800 rounded-full"
             >
               Click Me
             </Link>
@@ -40,7 +40,7 @@ const BelovedProducts = () => {
             <h3 className="text-3xl text-white">Name of Product</h3>
             <Link
               to="/products/2"
-              className="px-8 py-4 bg-black text-white hover:bg-neutral-900 rounded-full "
+              className="px-8 py-4 bg-black text-white  hover:bg-primary_darkerShade-800 rounded-full "
             >
               Click Me
             </Link>
@@ -58,7 +58,7 @@ const BelovedProducts = () => {
             <h3 className="text-3xl text-white">Name of Product</h3>
             <Link
               to="/products/3"
-              className="px-8 py-4 bg-black text-white hover:bg-neutral-900 rounded-full"
+              className="px-8 py-4 bg-black text-white hover:bg-primary_darkerShade-800 rounded-full"
             >
               Click Me
             </Link>

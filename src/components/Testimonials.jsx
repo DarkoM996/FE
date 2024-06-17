@@ -8,7 +8,7 @@ const Testimonials = () => {
       {/* Grid with testimonials */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 overflow-hidden">
         {/* Grid Element */}
-        <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
+        <div className=" bg-primary_lighterShade-200 px-8 py-6 rounded-3xl border border-primary_lighterShade-300 hover:shadow-2xl">
           <h4 className="text-3xl pb-1">Amazing Sofa </h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
@@ -33,7 +33,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Grid Element */}
-        <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
+        <div className="bg-primary_lighterShade-200 px-8 py-6 rounded-3xl border border-primary_lighterShade-300 hover:shadow-2xl">
           <h4 className="text-3xl pb-1">Phenomenal Service!</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
@@ -58,7 +58,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Grid Element */}
-        <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
+        <div className="bg-primary_lighterShade-200 px-8 py-6 rounded-3xl border border-primary_lighterShade-300 hover:shadow-2xl">
           <h4 className="text-3xl pb-1">The Most Amazing Experience!</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
@@ -83,7 +83,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Grid Element */}
-        <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
+        <div className="bg-primary_lighterShade-200 px-8 py-6 rounded-3xl border border-primary_lighterShade-300 hover:shadow-2xl">
           <h4 className="text-3xl pb-1">Best Sofa Ever</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
@@ -108,7 +108,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Grid Element */}
-        <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
+        <div className="bg-primary_lighterShade-200 px-8 py-6 rounded-3xl border border-primary_lighterShade-300 hover:shadow-2xl">
           <h4 className="text-3xl pb-1">The Best Mattress</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">
@@ -133,7 +133,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Grid Element */}
-        <div className="bg-stone-300 px-8 py-6 rounded-3xl border border-stone-400 hover:shadow-2xl">
+        <div className=" bg-primary_lighterShade-200 px-8 py-6 rounded-3xl border border-primary_lighterShade-300 hover:shadow-2xl">
           <h4 className="text-3xl pb-1">Best Sleep I've Ever Had</h4>
           {/* Star rating  */}
           <div className="flex flex-row pb-4 text-xl text-yellow-500">

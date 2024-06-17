@@ -28,10 +28,10 @@ const Hero = () => {
             collection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full">
-            <button className="bg-black text-white px-6 py-4  rounded-full text-base w-full hover:bg-[#0e0f0ecc]">
+            <button className="bg-black text-white px-6 py-4  rounded-full text-base w-full  hover:bg-primary_darkerShade-800">
               Get Started
             </button>
-            <button className="bg-[#dfd6c8] px-6 py-4  rounded-full w-full hover:bg-[#a79e91]">
+            <button className=" bg-primary_lighterShade-150 px-6 py-4  rounded-full w-full  hover:bg-primary_lighterShade-200">
               Contact Us
             </button>
           </div>
