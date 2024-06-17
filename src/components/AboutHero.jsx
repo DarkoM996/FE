@@ -19,7 +19,7 @@ const AboutHero = () => {
             <h1 className="text-5xl md:text-6xl font-bold text-center w-full">
               Comfortably Using FurniPro
             </h1>
-            <button className="px-6 py-4 bg-black hover:bg-primary_darkerShade-900 rounded-3xl">
+            <button className="px-6 py-4 bg-black hover:bg-primary_darkerShade-900 rounded-full">
               Scroll Down
             </button>
           </div>
