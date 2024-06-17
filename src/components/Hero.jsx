@@ -16,8 +16,9 @@ const Hero = () => {
       {/* Text Container */}
       <div className="h-1/3 w-full flex flex-col md:justify-between items-top md:flex-row  gap-6 px-6 py-4 lg:px-8">
         <div className="w-full lg:w-1/2">
-          <h1 className="text-4xl md:text-6xl  w-full">
-            Feeling The Comfort Of Resting <br /> Comfortably Using FurniPro
+          {/* Text-balance suggestion to keep the heading going into proper rows as the text goes grows/shrinks seamless */}
+          <h1 className="text-4xl md:text-6xl text-balance w-full">
+            Feeling The Comfort Of Resting Comfortably Using FurniPro
           </h1>
         </div>
         <div className="flex flex-col w-full md:w-1/2 lg:w-1/4 gap-4">
