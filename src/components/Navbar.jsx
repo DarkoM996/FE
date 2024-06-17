@@ -30,7 +30,9 @@ const Navbar = () => {
       {/* I added this div class with container so I could have padding on side and menu still works regularly */}
       <div className="container mx-auto p-8 flex items-center justify-between">
         <div>
-          <h3 className="text-3xl ">Furnico</h3>
+          <NavLink to="/" className="text-3xl ">
+            Furnico
+          </NavLink>
         </div>
         <ul className="hidden md:flex">
           {/* Using the function here for active link that I created above  */}
