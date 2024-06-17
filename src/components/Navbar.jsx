@@ -10,13 +10,20 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
   };
+
+  // Active Link with React Router.. creating the function
+
+  const linkClass = ({ isActive }) =>
+    isActive
+      ? "bg-black text-white p-2 hover:bg-darkerShade-900 hover:text-black rounded-full"
+      : "text-white p-2 hover:bg-darkerShade-900 hover:text-black rounded-full";
 
   return (
     <div className="  flex justify-between items-center h-20 bg-primary_lighterShade-300">
@@ -26,18 +33,19 @@ const Navbar = () => {
           <h3 className="text-3xl">Furnico</h3>
         </div>
         <ul className="hidden md:flex">
-          <Link to="/">
+          {/* Using the function here for active link that I created above  */}
+          <NavLink to="/" className={linkClass}>
             <li className="text-xl">Home</li>
-          </Link>
-          <Link to="/about">
+          </NavLink>
+          <NavLink to="/about" className={linkClass}>
             <li className="text-xl">About</li>
-          </Link>
-          <Link to="/products">
+          </NavLink>
+          <NavLink to="/products" className={linkClass}>
             <li className="text-xl">Products</li>
-          </Link>
-          <Link to="/contact">
+          </NavLink>
+          <NavLink to="/contact" className={linkClass}>
             <li className="text-xl">Contact</li>
-          </Link>
+          </NavLink>
         </ul>
         <div className="hidden md:flex">
           <AiOutlineSearch className="mr-2 text-2xl" />
@@ -63,18 +71,18 @@ const Navbar = () => {
           }
         >
           <ul className="flex flex-col items-center pt-16 justify-between gap-8">
-            <Link to="/">
+            <NavLink to="/">
               <li className="text-5xl ">Home</li>
-            </Link>
-            <Link to="/about">
+            </NavLink>
+            <NavLink to="/" about>
               <li className="text-5xl ">About</li>
-            </Link>
-            <Link to="/products">
+            </NavLink>
+            <NavLink to="/products">
               <li className="text-5xl ">Products</li>
-            </Link>
-            <Link to="/contact">
+            </NavLink>
+            <NavLink to="/contact">
               <li className="text-5xl ">Contact</li>
-            </Link>
+            </NavLink>
           </ul>
           <div className="flex justify-between my-8 px-8">
             <FaFacebook className="icon text-2xl cursor-pointer" />
