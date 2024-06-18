@@ -1,4 +1,4 @@
-import whyusimage from "../images/newsstandimage4.jpg";
+import whyusimage from "../images/newsstandimage.jpg";
 
 const AboutWhyUs = () => {
   return (
