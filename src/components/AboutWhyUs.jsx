@@ -2,7 +2,7 @@ import whyusimage from "../images/newsstandimage4.jpg";
 
 const AboutWhyUs = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4">
+    <div className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4 md:py-8 lg:py-16">
       <h2 className="text-4xl md:text-5xl py-12">Why Us</h2>
       {/* Grid/Flexbox section with image and paragraphs */}
       <div className="grid grid-cols-1 gap-6">
