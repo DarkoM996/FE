@@ -6,9 +6,9 @@ const AboutOurValues = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {/* Grid Element left */}
-        <h2 className="text-4xl md:text-5xl md:pl-4">Our Values</h2>
+        <h2 className="text-4xl md:text-5xl md:pl-4 py-12">Our Values</h2>
         {/* Separate Grid of other elements */}
-        <div className="grid grid-cols-1 sm:grid-cols-2  gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 py-12  gap-6">
           {/* Grid Element #1 */}
           <div className="">
             <h4 className="text-3xl pb-2 md:pb-4">Integrity</h4>
