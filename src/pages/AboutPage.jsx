@@ -1,6 +1,7 @@
 import React from "react";
 import AboutHero from "../components/AboutHero";
 import AboutOurValues from "../components/AboutOurValues";
+import AboutWhyUs from "../components/AboutWhyUs";
 import OurTeam from "../components/OurTeam";
 
 const AboutPage = () => {
@@ -10,6 +11,7 @@ const AboutPage = () => {
       <AboutHero />
       <AboutOurValues />
       <OurTeam />
+      <AboutWhyUs />
     </>
   );
 };
