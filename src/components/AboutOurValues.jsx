@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutOurValues = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto relative w-full h-screen px-6 py-4">
+    <div className="max-w-screen-3xl mx-auto relative w-full h-full px-6 py-4">
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {/* Grid Element left */}
