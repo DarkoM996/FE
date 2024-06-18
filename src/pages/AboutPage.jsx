@@ -1,6 +1,7 @@
 import React from "react";
 import AboutHero from "../components/AboutHero";
 import AboutOurValues from "../components/AboutOurValues";
+import OurTeam from "../components/OurTeam";
 
 const AboutPage = () => {
   return (
@@ -8,6 +9,7 @@ const AboutPage = () => {
     <>
       <AboutHero />
       <AboutOurValues />
+      <OurTeam />
     </>
   );
 };
