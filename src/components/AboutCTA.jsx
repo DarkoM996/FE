@@ -1,4 +1,5 @@
 import ctabackgroundimage from "../images/hannah-busing-nME9TubZtSo-unsplash.jpg";
+import { Link } from "react-router-dom";
 
 const AboutCTA = () => {
   return (
@@ -15,9 +16,12 @@ const AboutCTA = () => {
           <h2 className="text-5xl lg:text-6xl text-center text-balance">
             Explore a wide range of furniture for you
           </h2>
-          <button className="px-8 py-4 bg-black border border-primary_lighterShade-400 rounded-full text-white hover:bg-primary_darkerShade-900">
+          <Link
+            to="/products"
+            className="px-8 py-4 bg-black border border-primary_lighterShade-400 rounded-full text-white hover:bg-primary_darkerShade-900"
+          >
             Products
-          </button>
+          </Link>
         </div>
       </div>
     </div>
