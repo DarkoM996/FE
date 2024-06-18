@@ -15,7 +15,7 @@ const AboutCTA = () => {
           <h2 className="text-5xl lg:text-6xl text-center text-balance">
             Explore a wide range of furniture for you
           </h2>
-          <button className="px-8 py-4 bg-black border border-primary_lighterShade-400 rounded-full text-white">
+          <button className="px-8 py-4 bg-black border border-primary_lighterShade-400 rounded-full text-white hover:bg-primary_darkerShade-900">
             Products
           </button>
         </div>
