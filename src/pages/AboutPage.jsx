@@ -1,4 +1,5 @@
 import React from "react";
+import AboutCTA from "../components/AboutCTA";
 import AboutHero from "../components/AboutHero";
 import AboutOurValues from "../components/AboutOurValues";
 import AboutWhyUs from "../components/AboutWhyUs";
@@ -12,6 +13,7 @@ const AboutPage = () => {
       <AboutOurValues />
       <OurTeam />
       <AboutWhyUs />
+      <AboutCTA />
     </>
   );
 };
