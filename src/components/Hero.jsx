@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../images/hero.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -28,12 +29,18 @@ const Hero = () => {
             collection.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full">
-            <button className="bg-black text-white px-6 py-4  rounded-full text-base w-full  hover:bg-primary_darkerShade-800">
+            <Link
+              to="/products"
+              className="bg-black text-white px-6 py-4  rounded-full text-base text-center w-full  hover:bg-primary_darkerShade-800"
+            >
               Get Started
-            </button>
-            <button className=" bg-primary_lighterShade-150 px-6 py-4  rounded-full w-full  hover:bg-primary_lighterShade-200">
+            </Link>
+            <Link
+              to="/contact"
+              className=" bg-primary_lighterShade-150 px-6 py-4 text-center  rounded-full w-full  hover:bg-primary_lighterShade-200"
+            >
               Contact Us
-            </button>
+            </Link>
           </div>
         </div>
       </div>
