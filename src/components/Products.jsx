@@ -10,46 +10,40 @@ import AsideMenu from "./AsideMenu";
 const Products = () => {
   return (
     <div className="max-w-screen-3xl mx-auto relative w-full h-full px-6 py-4">
-      {/* Grid */}
-      <div className="grid grid-cols-1 gap-6">
-        {/* Aside */}
-        <div className="hidden md:inline-block">
-          <AsideMenu />
+      {/* Left side */}
+      <div className="left">
+        {/* Filter Item */}
+        <div className="">
+          <h2 className="text-2xl py-2">Product Categories</h2>
+          <input type="checkbox" id="1" value={1} />
+          <label htmlFor="1" className="text-xl ml-2">
+            Living Room
+          </label>
         </div>
-        {/* Products */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <img
-            src={image}
-            alt="/"
-            className="object-cover w-full h-[420px] bg-center"
-          />
-          <img
-            src={image2}
-            alt="/"
-            className="object-cover w-full h-[420px] bg-center"
-          />
-          <img
-            src={image3}
-            alt="/"
-            className="object-cover w-full h-[420px] bg-center"
-          />
-          <img
-            src={image4}
-            alt="/"
-            className="object-cover w-full h-[420px] bg-center"
-          />
-          <img
-            src={image5}
-            alt="/"
-            className="object-cover w-full h-[420px] bg-center"
-          />
-          <img
-            src={image}
-            alt="/"
-            className="object-cover w-full h-[420px] bg-center"
-          />
+        {/* Filter Item */}
+        <div className="">
+          <input type="checkbox" id="2" value={2} />
+          <label htmlFor="2" className="text-xl ml-2">
+            Dining Room
+          </label>
+        </div>
+        {/* Filter Item */}
+        <div className="">
+          <input type="checkbox" id="3" value={3} />
+          <label htmlFor="3" className="text-xl ml-2">
+            Kitchen
+          </label>
+        </div>
+        {/* Filter Item */}
+        <div className="">
+          <input type="checkbox" id="4" value={4} />
+          <label htmlFor="3" className="text-xl ml-2">
+            Bedroom
+          </label>
         </div>
       </div>
+      {/* Right side */}
+      <div className="right"></div>
     </div>
   );
 };
