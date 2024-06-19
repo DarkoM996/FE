@@ -11,9 +11,9 @@ const Products = () => {
   return (
     <div className="max-w-screen-3xl mx-auto relative w-full h-full px-6 py-4">
       {/* Left side */}
-      <div className="left">
+      <div className="flex flex-col justify-center items-start gap-2">
         {/* Filter Item */}
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
           <h2 className="text-2xl py-2">Product Categories</h2>
           <input type="checkbox" id="1" value={1} />
           <label htmlFor="1" className="text-xl ml-2">
