@@ -10,40 +10,22 @@ import AsideMenu from "./AsideMenu";
 const Products = () => {
   return (
     <div className="max-w-screen-3xl mx-auto relative w-full h-full px-6 py-4">
-      {/* Left side */}
-      <div className="flex flex-col justify-center items-start gap-2">
-        {/* Filter Item */}
-        <div className="flex flex-col justify-center items-center">
-          <h2 className="text-2xl py-2">Product Categories</h2>
-          <input type="checkbox" id="1" value={1} />
-          <label htmlFor="1" className="text-xl ml-2">
+      {/* Left side filter */}
+      <div className="flex flex-col sm:flex-row justify-between items-start gap-2 w-full">
+        <div className="flex flex-row justify-center items-center gap-2">
+          <h2 className="text-2xl">Filter By:</h2>
+          <button className="p-4 bg-primary_lighterShade-300 hover:bg-primary_lighterShade-500 text-black rounded-full border border-primary_lighterShade-400 w-[160px]">
             Living Room
-          </label>
+          </button>
         </div>
-        {/* Filter Item */}
-        <div className="">
-          <input type="checkbox" id="2" value={2} />
-          <label htmlFor="2" className="text-xl ml-2">
-            Dining Room
-          </label>
-        </div>
-        {/* Filter Item */}
-        <div className="">
-          <input type="checkbox" id="3" value={3} />
-          <label htmlFor="3" className="text-xl ml-2">
-            Kitchen
-          </label>
-        </div>
-        {/* Filter Item */}
-        <div className="">
-          <input type="checkbox" id="4" value={4} />
-          <label htmlFor="3" className="text-xl ml-2">
-            Bedroom
-          </label>
+        {/* Right side filter*/}
+        <div className="flex flex-row justify-center items-center gap-2">
+          <h2 className="text-2xl">Sort By:</h2>
+          <button className="p-4 bg-primary_lighterShade-300 hover:bg-primary_lighterShade-500 text-black rounded-full border border-primary_lighterShade-400 w-[160px]">
+            Most Popular
+          </button>
         </div>
       </div>
-      {/* Right side */}
-      <div className="right"></div>
     </div>
   );
 };
