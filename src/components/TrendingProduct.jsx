@@ -9,7 +9,7 @@ const TrendingProduct = ({ product }) => {
       <div className="">
         <div className="mb-4 overflow-hidden inline-block rounded-2xl">
           {/* Should link to individual product..  */}
-          <Link to={`/products/${products._id}`}>
+          <Link to={`/products/${products.id}`}>
             <img
               src={product.image}
               alt="product image"

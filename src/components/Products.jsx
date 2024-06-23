@@ -1,5 +1,6 @@
 import React from "react";
 import TrendingProducts from "./TrendingProducts";
+import ProductListings from "./ProductListings";
 
 const Products = () => {
   return (
@@ -21,7 +22,7 @@ const Products = () => {
         </div>
         {/* Products below */}
       </div>
-      <TrendingProducts />
+      <ProductListings />
     </div>
   );
 };

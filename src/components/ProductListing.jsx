@@ -8,7 +8,7 @@ const ProductListing = ({ product }) => {
       <div className="">
         <div className="mb-4 overflow-hidden inline-block rounded-2xl">
           {/* Should link to individual product..  */}
-          <Link to={`/products/${product._id}`}>
+          <Link to={`/products/${product.id}`}>
             <img
               src={product.image}
               alt="product image"

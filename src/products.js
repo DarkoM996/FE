@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: "1",
+    id: "1",
     name: "Featured Product 1",
     subtitle: "Subtitle #1",
     image: "/src/images/categorycard.jpg",
@@ -15,7 +15,7 @@ const products = [
   },
 
   {
-    _id: "2",
+    id: "2",
     name: "Featured Product 2",
     subtitle: "Subtitle #2",
     image: "/src/images/categorycard2.jpg",
@@ -30,7 +30,7 @@ const products = [
   },
 
   {
-    _id: "3",
+    id: "3",
     name: "Featured Product 3",
     subtitle: "Subtitle #3",
     image: "/src/images/categorycard3.jpg",
@@ -45,7 +45,7 @@ const products = [
   },
 
   {
-    _id: "4",
+    id: "4",
     name: "Featured Product 4",
     subtitle: "Subtitle #4",
     image: "/src/images/categorycard4.jpg",
@@ -60,7 +60,7 @@ const products = [
   },
 
   {
-    _id: "5",
+    id: "5",
     name: "Samsung Something",
     subtitle: "Subtitle #5",
     image: "/src/images/categorycard.jpg",
@@ -75,7 +75,7 @@ const products = [
   },
 
   {
-    _id: "6",
+    id: "6",
     name: "Sony Name",
     subtitle: "Subtitle #6",
     image: "/src/images/categorycard2.jpg",
@@ -90,7 +90,7 @@ const products = [
   },
 
   {
-    _id: "7",
+    id: "7",
     name: "Product #7",
     subtitle: "Subtitle #7",
     image: "/src/images/categorycard2.jpg",
@@ -105,7 +105,7 @@ const products = [
   },
 
   {
-    _id: "8",
+    id: "8",
     name: "Product #8",
     subtitle: "Subtitle #8",
     image: "/src/images/categorycard2.jpg",
@@ -120,7 +120,7 @@ const products = [
   },
 
   {
-    _id: "9",
+    id: "9",
     name: "Product #9",
     subtitle: "Subtitle #9",
     image: "/src/images/categorycard2.jpg",
@@ -135,7 +135,7 @@ const products = [
   },
 
   {
-    _id: "10",
+    id: "10",
     name: "Product #10",
     subtitle: "Subtitle #10",
     image: "/src/images/categorycard2.jpg",

@@ -4,9 +4,9 @@ import products from "../products";
 import ProductListing from "./ProductListing";
 import { MdFavoriteBorder } from "react-icons/md";
 
-const ProductListings = () => {
+const ProductListings = ({ isHome = false }) => {
   // Limiting products to 4. HOWEVER, I may leave all 6. Its gonna be a design decision that I am making soon.
-  const recentProducts = products.slice(0, 4);
+  const productListing = isHome ? products.slice(0, 4) : products;
 
   return (
     // This works and is based on the original 2024 React Traversy crash course. Now.. recreate the cards you want from the design in JSX and Tailwind.. and then you can just add dynamic data instead of the static HTML/JSX where its needed
@@ -14,9 +14,9 @@ const ProductListings = () => {
       <div className="max-w-screen-3xl mx-auto h-auto px-6 py-4 md:py-8 lg:py-16">
         <h2 className="text-4xl md:text-5xl py-12">Featured Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {recentProducts.map((product) => (
+          {productListing.map((product) => (
             // This will be a separate component so we can map through a component instead of just HTML
-            <ProductListing key={product._id} product={product} />
+            <ProductListing key={product.id} product={product} />
           ))}
         </div>
       </div>
