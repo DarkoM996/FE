@@ -6,7 +6,7 @@ const ContactPage = () => {
     <div className="max-w-screen-3xl mx-auto w-full h-full px-6 py-4">
       <div className="flex flex-col justify-center items-center gap-6">
         {/* Image */}
-        <div className="relative w-full h-[700px]">
+        <div className="relative w-full h-[600px]">
           <img
             src={contactimage}
             alt="/"
