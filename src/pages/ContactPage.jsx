@@ -27,9 +27,9 @@ const ContactPage = () => {
           {/* Contact Form */}
           <form
             action="#"
-            className="max-w-screen-md p-4 lg:p-8 mx-auto w-full h-full flex flex-col justify-center items-stretch gap-6 rounded-2xl bg-primary_lighterShade-50"
+            className="max-w-screen-md p-4 lg:p-8 mx-auto w-full h-full flex flex-col justify-center items-center gap-6 rounded-2xl bg-primary_lighterShade-50"
           >
-            <div className="flex flex-col justify-between items-stretch w-full h-full">
+            <div className="flex flex-col justify-between items-start w-full h-full">
               <h2 className="text-2xl md:text-3xl">Contact Page</h2>
             </div>
 
@@ -51,9 +51,11 @@ const ContactPage = () => {
               rows="10"
               placeholder="Your message here"
             />
-            <button className="px-6 py-4 bg-black hover:bg-primary_darkerShade-900 text-white text-transform: uppercase rounded-full mx-auto flex items-center">
-              Submit Your Message
-            </button>
+            <div className="flex flex-col justify-center items-start w-full h-full">
+              <button className="px-6 py-4 bg-black hover:bg-primary_darkerShade-900 text-white text-transform: uppercase rounded-full ">
+                Submit Your Message
+              </button>
+            </div>
           </form>
         </div>
       </div>
