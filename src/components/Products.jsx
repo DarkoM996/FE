@@ -14,6 +14,7 @@ const Products = () => {
           </button>
         </div>
         {/* Right side filter*/}
+        {/* This filter thing could be potentially removed as to keep the design and web app more simple for starters */}
         <div className="flex flex-row justify-center items-center gap-2">
           <h2 className="text-2xl">Sort By:</h2>
           <button className="p-4 bg-primary_lighterShade-300 hover:bg-primary_lighterShade-500 text-black rounded-full border border-primary_lighterShade-400 w-[160px]">
