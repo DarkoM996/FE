@@ -15,10 +15,10 @@ const AboutHero = () => {
           <div className="flex flex-col justify-center items-center text-center gap-6 text-white">
             {/* div added so the spacing fits the design requirements. It had to be written with flex flex-col so the gap class can work here */}
             <div className="flex flex-col gap-2">
-              <h1 className="text-5xl md:text-6xl font-bold text-center w-full">
+              <h1 className="text-5xl md:text-6xl text-center w-full">
                 Feel The Comfort Of Resting
               </h1>
-              <h1 className="text-5xl md:text-6xl font-bold text-center w-full">
+              <h1 className="text-5xl md:text-6xl text-center w-full">
                 Comfortably Using FurniPro
               </h1>
             </div>
