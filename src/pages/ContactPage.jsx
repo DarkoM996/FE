@@ -13,7 +13,7 @@ const ContactPage = () => {
             className="object-cover w-full h-full bg-center rounded-3xl"
           />
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-start w-full gap-8 ">
+        <div className="flex flex-col md:flex-row justify-center items-start w-full gap-4 lg:gap-8 ">
           {/* Heading */}
           <div className="flex flex-col justify-center items-start">
             <h1 className="text-5xl md:text-6xl py-6">Contact Page</h1>
@@ -40,7 +40,7 @@ const ContactPage = () => {
                 name="Smith"
               />
               <input
-                className=" p-4 bg-white hover:bg-[#f1f1f1] rounded-full w-full"
+                className=" p-4 bg-white hover:bg-[#f1f1f1] rounded-full w-full "
                 type="email"
                 placeholder="E.g adamsmith93@gmail.com"
                 name="email"
