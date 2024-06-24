@@ -12,7 +12,7 @@ const HomePage = () => {
     <>
       <Hero />
       <Categories />
-      <ProductListings />
+      <ProductListings isHome={true} />
       {/* <CategorySection /> */}
       <BelovedProducts />
       <TrendingProducts />
