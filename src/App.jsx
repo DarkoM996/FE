@@ -10,6 +10,7 @@ import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import ProductsPage from "./pages/ProductsPage";
 import Error404Page from "./pages/Error404Page";
+import ProductDescription from "./pages/ProductDescription";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />)
       <Route path="/about" element={<AboutPage />} />
       <Route path="/products" element={<ProductsPage />} />
+      <Route path="/products/:id" element={<ProductDescription />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="*" element={<Error404Page />} />
     </Route>
