@@ -22,48 +22,43 @@ const ProductDescription = () => {
             alt={product.name}
             className="w-full h-[600px] object-cover rounded-3xl"
           />
-          {/* Smaller Images in line here for now */}
-          <div className="grid grid-cols-3 gap-6 py-8">
-            <div>
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-[200px] h-[200px] object-cover rounded-3xl"
-              />
-            </div>
-            <div>
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-[200px] h-[200px] object-cover rounded-3xl"
-              />
-            </div>
-            <div>
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-[200px] h-[200px] object-cover rounded-3xl"
-              />
-            </div>
-          </div>
         </div>
         {/* Text Container */}
-        <div>
-          <div>
-            <h1>Product Name</h1>
+        <div className="flex flex-col justify-start items-start gap-8">
+          {/* Mini section part 1 in here.. this is also done for design choices */}
+          <div className="flex flex-col justify-start items-start gap-2">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl">Product Name</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
               blanditiis porro voluptatibus dolores ducimus sequi nostrum quae
               quas libero vitae. Quia distinctio inventore ipsam quo enim
               recusandae quisquam omnis culpa?
             </p>
-            <div className="flex flex-row">
+            <div className="flex flex-row justify-center items-center text-xl">
               <MdOutlineStarPurple500 />
               <MdOutlineStarPurple500 />
               <MdOutlineStarPurple500 />
               <MdOutlineStarPurple500 />
-              <MdOutlineStarPurple500 />
+              <p>8 reviews</p>
             </div>
+          </div>
+          {/* Mini section #2 */}
+          <div className="flex flex-col justify-start items-start gap-4">
+            {/* This is split into a horizontal row */}
+            <div className="flex flex-row justify-center items-center gap-8">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl">$200.00</h2>
+              <div>
+                ${product.countInStock > 0 ? "In Stock" : "Out Of Stock"}
+              </div>
+            </div>
+            {/* Button will be a separate part.. */}
+            <button
+              className="px-6 py-4 bg-black rounded-full text-white"
+              type="button"
+              disabled={product.countInStock === 0}
+            >
+              Add To Cart
+            </button>
           </div>
         </div>
       </div>
