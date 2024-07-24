@@ -27,18 +27,17 @@ const ProductDescription = () => {
         <div className="flex flex-col justify-start items-start gap-8">
           {/* Mini section part 1 in here.. this is also done for design choices */}
           <div className="flex flex-col justify-start items-start gap-2">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl">Product Name</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum
-              blanditiis porro voluptatibus dolores ducimus sequi nostrum quae
-              quas libero vitae. Quia distinctio inventore ipsam quo enim
-              recusandae quisquam omnis culpa?
-            </p>
-            <div className="flex flex-row justify-center items-center text-xl">
-              <MdOutlineStarPurple500 />
-              <MdOutlineStarPurple500 />
-              <MdOutlineStarPurple500 />
-              <MdOutlineStarPurple500 />
+            <h1 className="text-4xl md:text-5xl lg:text-6xl">{product.name}</h1>
+            <p className="text-base leading-normal">{product.description}</p>
+            {/* Mini div for this section */}
+            <div className="flex flex-row justify-center items-center gap-4 text-xl">
+              {/* Separate div for the stars */}
+              <div className="flex flex-row justify-center">
+                <MdOutlineStarPurple500 />
+                <MdOutlineStarPurple500 />
+                <MdOutlineStarPurple500 />
+                <MdOutlineStarPurple500 />
+              </div>
               <p>8 reviews</p>
             </div>
           </div>
