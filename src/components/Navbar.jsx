@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-20 bg-primary_lighterShade-300">
       {/* I added this div class with container so I could have padding on side and menu still works regularly */}
-      <div className="container mx-auto p-8 flex items-center justify-between">
+      <div className="container mx-auto p-8 md:px-16 lg:px-28 flex items-center justify-between">
         <div>
           <NavLink to="/" className="text-3xl ">
             Furnico
