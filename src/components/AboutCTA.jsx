@@ -9,7 +9,7 @@ const AboutCTA = () => {
         <img
           src={ctabackgroundimage}
           alt="/"
-          className="w-full h-full object-cover rounded-3xl"
+          className="w-full h-full object-cover rounded-2xl"
         />
         {/* Text container */}
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4 bg-black/40 rounded-3xl text-white">
