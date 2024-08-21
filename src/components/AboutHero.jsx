@@ -2,7 +2,7 @@ import image from "../images/aboutimage.jpg";
 
 const AboutHero = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto p-8 relative w-full h-screen lg:px-28">
+    <div className="max-w-screen-3xl mx-auto p-10 relative w-full h-screen lg:px-28">
       <div className="relative w-full h-full">
         {/* Image Background */}
         <img
