@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AboutCTA = () => {
   return (
-    <div className="max-w-screen-3xl mx-auto w-full h-full relative px-6 py-4 md:py-8 lg:py-16">
+    <div className="max-w-screen-2xl mx-auto w-full h-full relative px-6 py-4 md:py-8 lg:py-16">
       {/* Image background for this section */}
       <div className="relative h-screen">
         <img
