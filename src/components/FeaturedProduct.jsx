@@ -17,7 +17,7 @@ const FeaturedProduct = ({ img, title, subtitle }) => {
           <MdFavoriteBorder className="text-2xl" />
         </div>
         <p className="text-xl">{subtitle}</p>
-        <p className="font-bold pt-2">$1000</p>
+        <p className="font-bold pt-2">$2000</p>
       </div>
     </div>
   );
